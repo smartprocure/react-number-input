@@ -1,6 +1,6 @@
 {
-  "name": "react-number-input",
-  "version": "15.6.0",
+  "name": "rc-number-input",
+  "version": "16.0.0",
   "description": "<input /> for numbers, currency and other important numbers",
   "main": "dist/index.js",
   "author": "hongymagic",
@@ -39,8 +39,9 @@
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.23.0",
     "numbro": "^1.10.1",
-    "react": "^0.14 || ^15.0.0-rc || ^15.0",
-    "react-dom": "^0.14 || ^15.0.0-rc || ^15.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-tap-event-plugin": "^3.0.2",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
