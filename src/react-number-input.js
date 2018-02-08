@@ -36,7 +36,7 @@ const toValue = (value: string): VALUE_TYPE => {
   return unformatted;
 };
 
-const normalisedValue = (value: string, format: string): VALUE_TYPE =>
+const normalizedValue = (value: string, format: string): VALUE_TYPE =>
   toValue(toFormattedString(toValue(value), format));
 
 const constrainedValue = (
@@ -136,7 +136,7 @@ export default class NumberInput extends Component {
       {
         focused: false,
         value: toFormattedString(
-          constrainedValue(normalisedValue(this.state.value, format), min, max),
+          constrainedValue(normalizedValue(this.state.value, format), min, max),
           format
         ),
       },
@@ -175,7 +175,7 @@ export default class NumberInput extends Component {
       // This ensures that decimal places are inline with supplied format.
       () =>
         onChange(
-          constrainedValue(normalisedValue(value, format), min, max),
+          constrainedValue(normalizedValue(value, format), min, max),
           event
         )
     );
@@ -193,6 +193,7 @@ export default class NumberInput extends Component {
       onFocus: this.onFocus,
       onBlur: this.onBlur,
       onChange: this.onChange,
+      normalized: normalizedValue(value, format),
     };
 
     return renderer ? renderer(props) : <input {...props} />;

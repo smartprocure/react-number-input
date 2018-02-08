@@ -1,6 +1,6 @@
 {
   "name": "rc-number-input",
-  "version": "16.0.0",
+  "version": "16.0.2",
   "description": "<input /> for numbers, currency and other important numbers",
   "main": "dist/index.js",
   "author": "hongymagic",
