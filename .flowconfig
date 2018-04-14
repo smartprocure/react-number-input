@@ -1,5 +1,6 @@
 [ignore]
 <PROJECT_ROOT>/example
+.*/node_modules
 
 [include]
 

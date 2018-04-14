@@ -1,4 +1,4 @@
-// flow-typed signature: a3d8a49190484cc21dc28efb9f5f7543
+// flow-typed signature: 91a5365abc52922096491d2649b1284e
 // flow-typed version: <<STUB>>/numbro_v^1.10.1/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 
@@ -27,6 +27,10 @@ declare module 'numbro/dist/languages' {
 }
 
 declare module 'numbro/dist/languages.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/bg.min' {
   declare module.exports: any;
 }
 
@@ -54,6 +58,10 @@ declare module 'numbro/dist/languages/de-LI.min' {
   declare module.exports: any;
 }
 
+declare module 'numbro/dist/languages/el.min' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/dist/languages/en-AU.min' {
   declare module.exports: any;
 }
@@ -78,7 +86,39 @@ declare module 'numbro/dist/languages/es-AR.min' {
   declare module.exports: any;
 }
 
+declare module 'numbro/dist/languages/es-CL.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-CO.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-CR.min' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/dist/languages/es-ES.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-MX.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-NI.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-PE.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-PR.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/es-SV.min' {
   declare module.exports: any;
 }
 
@@ -118,6 +158,10 @@ declare module 'numbro/dist/languages/hu-HU.min' {
   declare module.exports: any;
 }
 
+declare module 'numbro/dist/languages/id.min' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/dist/languages/index.min' {
   declare module.exports: any;
 }
@@ -146,11 +190,19 @@ declare module 'numbro/dist/languages/nb-NO.min' {
   declare module.exports: any;
 }
 
+declare module 'numbro/dist/languages/nb.min' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/dist/languages/nl-BE.min' {
   declare module.exports: any;
 }
 
 declare module 'numbro/dist/languages/nl-NL.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/nn.min' {
   declare module.exports: any;
 }
 
@@ -170,6 +222,10 @@ declare module 'numbro/dist/languages/ro-RO.min' {
   declare module.exports: any;
 }
 
+declare module 'numbro/dist/languages/ro.min' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/dist/languages/ru-RU.min' {
   declare module.exports: any;
 }
@@ -179,6 +235,14 @@ declare module 'numbro/dist/languages/ru-UA.min' {
 }
 
 declare module 'numbro/dist/languages/sk-SK.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/sl.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/sr-Cyrl-RS.min' {
   declare module.exports: any;
 }
 
@@ -202,6 +266,22 @@ declare module 'numbro/dist/languages/zh-CN.min' {
   declare module.exports: any;
 }
 
+declare module 'numbro/dist/languages/zh-HANS.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/zh-HANT.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/zh-MO.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/dist/languages/zh-SG.min' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/dist/languages/zh-TW.min' {
   declare module.exports: any;
 }
@@ -211,6 +291,10 @@ declare module 'numbro/dist/numbro' {
 }
 
 declare module 'numbro/dist/numbro.min' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/bg' {
   declare module.exports: any;
 }
 
@@ -238,6 +322,10 @@ declare module 'numbro/languages/de-LI' {
   declare module.exports: any;
 }
 
+declare module 'numbro/languages/el' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/languages/en-AU' {
   declare module.exports: any;
 }
@@ -262,7 +350,39 @@ declare module 'numbro/languages/es-AR' {
   declare module.exports: any;
 }
 
+declare module 'numbro/languages/es-CL' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-CO' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-CR' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/languages/es-ES' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-MX' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-NI' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-PE' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-PR' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/es-SV' {
   declare module.exports: any;
 }
 
@@ -302,6 +422,10 @@ declare module 'numbro/languages/hu-HU' {
   declare module.exports: any;
 }
 
+declare module 'numbro/languages/id' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/languages/index' {
   declare module.exports: any;
 }
@@ -330,11 +454,19 @@ declare module 'numbro/languages/nb-NO' {
   declare module.exports: any;
 }
 
+declare module 'numbro/languages/nb' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/languages/nl-BE' {
   declare module.exports: any;
 }
 
 declare module 'numbro/languages/nl-NL' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/nn' {
   declare module.exports: any;
 }
 
@@ -354,6 +486,10 @@ declare module 'numbro/languages/ro-RO' {
   declare module.exports: any;
 }
 
+declare module 'numbro/languages/ro' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/languages/ru-RU' {
   declare module.exports: any;
 }
@@ -363,6 +499,14 @@ declare module 'numbro/languages/ru-UA' {
 }
 
 declare module 'numbro/languages/sk-SK' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/sl' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/sr-Cyrl-RS' {
   declare module.exports: any;
 }
 
@@ -386,6 +530,14 @@ declare module 'numbro/languages/zh-CN' {
   declare module.exports: any;
 }
 
+declare module 'numbro/languages/zh-MO' {
+  declare module.exports: any;
+}
+
+declare module 'numbro/languages/zh-SG' {
+  declare module.exports: any;
+}
+
 declare module 'numbro/languages/zh-TW' {
   declare module.exports: any;
 }
@@ -400,6 +552,9 @@ declare module 'numbro/dist/languages.js' {
 }
 declare module 'numbro/dist/languages.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages.min'>;
+}
+declare module 'numbro/dist/languages/bg.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/bg.min'>;
 }
 declare module 'numbro/dist/languages/cs-CZ.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/cs-CZ.min'>;
@@ -419,6 +574,9 @@ declare module 'numbro/dist/languages/de-DE.min.js' {
 declare module 'numbro/dist/languages/de-LI.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/de-LI.min'>;
 }
+declare module 'numbro/dist/languages/el.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/el.min'>;
+}
 declare module 'numbro/dist/languages/en-AU.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/en-AU.min'>;
 }
@@ -437,8 +595,32 @@ declare module 'numbro/dist/languages/en-ZA.min.js' {
 declare module 'numbro/dist/languages/es-AR.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/es-AR.min'>;
 }
+declare module 'numbro/dist/languages/es-CL.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-CL.min'>;
+}
+declare module 'numbro/dist/languages/es-CO.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-CO.min'>;
+}
+declare module 'numbro/dist/languages/es-CR.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-CR.min'>;
+}
 declare module 'numbro/dist/languages/es-ES.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/es-ES.min'>;
+}
+declare module 'numbro/dist/languages/es-MX.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-MX.min'>;
+}
+declare module 'numbro/dist/languages/es-NI.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-NI.min'>;
+}
+declare module 'numbro/dist/languages/es-PE.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-PE.min'>;
+}
+declare module 'numbro/dist/languages/es-PR.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-PR.min'>;
+}
+declare module 'numbro/dist/languages/es-SV.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/es-SV.min'>;
 }
 declare module 'numbro/dist/languages/et-EE.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/et-EE.min'>;
@@ -467,6 +649,9 @@ declare module 'numbro/dist/languages/he-IL.min.js' {
 declare module 'numbro/dist/languages/hu-HU.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/hu-HU.min'>;
 }
+declare module 'numbro/dist/languages/id.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/id.min'>;
+}
 declare module 'numbro/dist/languages/index.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/index.min'>;
 }
@@ -488,11 +673,17 @@ declare module 'numbro/dist/languages/lv-LV.min.js' {
 declare module 'numbro/dist/languages/nb-NO.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/nb-NO.min'>;
 }
+declare module 'numbro/dist/languages/nb.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/nb.min'>;
+}
 declare module 'numbro/dist/languages/nl-BE.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/nl-BE.min'>;
 }
 declare module 'numbro/dist/languages/nl-NL.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/nl-NL.min'>;
+}
+declare module 'numbro/dist/languages/nn.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/nn.min'>;
 }
 declare module 'numbro/dist/languages/pl-PL.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/pl-PL.min'>;
@@ -506,6 +697,9 @@ declare module 'numbro/dist/languages/pt-PT.min.js' {
 declare module 'numbro/dist/languages/ro-RO.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/ro-RO.min'>;
 }
+declare module 'numbro/dist/languages/ro.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/ro.min'>;
+}
 declare module 'numbro/dist/languages/ru-RU.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/ru-RU.min'>;
 }
@@ -514,6 +708,12 @@ declare module 'numbro/dist/languages/ru-UA.min.js' {
 }
 declare module 'numbro/dist/languages/sk-SK.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/sk-SK.min'>;
+}
+declare module 'numbro/dist/languages/sl.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/sl.min'>;
+}
+declare module 'numbro/dist/languages/sr-Cyrl-RS.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/sr-Cyrl-RS.min'>;
 }
 declare module 'numbro/dist/languages/sv-SE.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/sv-SE.min'>;
@@ -530,6 +730,18 @@ declare module 'numbro/dist/languages/uk-UA.min.js' {
 declare module 'numbro/dist/languages/zh-CN.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/zh-CN.min'>;
 }
+declare module 'numbro/dist/languages/zh-HANS.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/zh-HANS.min'>;
+}
+declare module 'numbro/dist/languages/zh-HANT.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/zh-HANT.min'>;
+}
+declare module 'numbro/dist/languages/zh-MO.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/zh-MO.min'>;
+}
+declare module 'numbro/dist/languages/zh-SG.min.js' {
+  declare module.exports: $Exports<'numbro/dist/languages/zh-SG.min'>;
+}
 declare module 'numbro/dist/languages/zh-TW.min.js' {
   declare module.exports: $Exports<'numbro/dist/languages/zh-TW.min'>;
 }
@@ -538,6 +750,9 @@ declare module 'numbro/dist/numbro.js' {
 }
 declare module 'numbro/dist/numbro.min.js' {
   declare module.exports: $Exports<'numbro/dist/numbro.min'>;
+}
+declare module 'numbro/languages/bg.js' {
+  declare module.exports: $Exports<'numbro/languages/bg'>;
 }
 declare module 'numbro/languages/cs-CZ.js' {
   declare module.exports: $Exports<'numbro/languages/cs-CZ'>;
@@ -557,6 +772,9 @@ declare module 'numbro/languages/de-DE.js' {
 declare module 'numbro/languages/de-LI.js' {
   declare module.exports: $Exports<'numbro/languages/de-LI'>;
 }
+declare module 'numbro/languages/el.js' {
+  declare module.exports: $Exports<'numbro/languages/el'>;
+}
 declare module 'numbro/languages/en-AU.js' {
   declare module.exports: $Exports<'numbro/languages/en-AU'>;
 }
@@ -575,8 +793,32 @@ declare module 'numbro/languages/en-ZA.js' {
 declare module 'numbro/languages/es-AR.js' {
   declare module.exports: $Exports<'numbro/languages/es-AR'>;
 }
+declare module 'numbro/languages/es-CL.js' {
+  declare module.exports: $Exports<'numbro/languages/es-CL'>;
+}
+declare module 'numbro/languages/es-CO.js' {
+  declare module.exports: $Exports<'numbro/languages/es-CO'>;
+}
+declare module 'numbro/languages/es-CR.js' {
+  declare module.exports: $Exports<'numbro/languages/es-CR'>;
+}
 declare module 'numbro/languages/es-ES.js' {
   declare module.exports: $Exports<'numbro/languages/es-ES'>;
+}
+declare module 'numbro/languages/es-MX.js' {
+  declare module.exports: $Exports<'numbro/languages/es-MX'>;
+}
+declare module 'numbro/languages/es-NI.js' {
+  declare module.exports: $Exports<'numbro/languages/es-NI'>;
+}
+declare module 'numbro/languages/es-PE.js' {
+  declare module.exports: $Exports<'numbro/languages/es-PE'>;
+}
+declare module 'numbro/languages/es-PR.js' {
+  declare module.exports: $Exports<'numbro/languages/es-PR'>;
+}
+declare module 'numbro/languages/es-SV.js' {
+  declare module.exports: $Exports<'numbro/languages/es-SV'>;
 }
 declare module 'numbro/languages/et-EE.js' {
   declare module.exports: $Exports<'numbro/languages/et-EE'>;
@@ -605,6 +847,9 @@ declare module 'numbro/languages/he-IL.js' {
 declare module 'numbro/languages/hu-HU.js' {
   declare module.exports: $Exports<'numbro/languages/hu-HU'>;
 }
+declare module 'numbro/languages/id.js' {
+  declare module.exports: $Exports<'numbro/languages/id'>;
+}
 declare module 'numbro/languages/index.js' {
   declare module.exports: $Exports<'numbro/languages/index'>;
 }
@@ -626,11 +871,17 @@ declare module 'numbro/languages/lv-LV.js' {
 declare module 'numbro/languages/nb-NO.js' {
   declare module.exports: $Exports<'numbro/languages/nb-NO'>;
 }
+declare module 'numbro/languages/nb.js' {
+  declare module.exports: $Exports<'numbro/languages/nb'>;
+}
 declare module 'numbro/languages/nl-BE.js' {
   declare module.exports: $Exports<'numbro/languages/nl-BE'>;
 }
 declare module 'numbro/languages/nl-NL.js' {
   declare module.exports: $Exports<'numbro/languages/nl-NL'>;
+}
+declare module 'numbro/languages/nn.js' {
+  declare module.exports: $Exports<'numbro/languages/nn'>;
 }
 declare module 'numbro/languages/pl-PL.js' {
   declare module.exports: $Exports<'numbro/languages/pl-PL'>;
@@ -644,6 +895,9 @@ declare module 'numbro/languages/pt-PT.js' {
 declare module 'numbro/languages/ro-RO.js' {
   declare module.exports: $Exports<'numbro/languages/ro-RO'>;
 }
+declare module 'numbro/languages/ro.js' {
+  declare module.exports: $Exports<'numbro/languages/ro'>;
+}
 declare module 'numbro/languages/ru-RU.js' {
   declare module.exports: $Exports<'numbro/languages/ru-RU'>;
 }
@@ -652,6 +906,12 @@ declare module 'numbro/languages/ru-UA.js' {
 }
 declare module 'numbro/languages/sk-SK.js' {
   declare module.exports: $Exports<'numbro/languages/sk-SK'>;
+}
+declare module 'numbro/languages/sl.js' {
+  declare module.exports: $Exports<'numbro/languages/sl'>;
+}
+declare module 'numbro/languages/sr-Cyrl-RS.js' {
+  declare module.exports: $Exports<'numbro/languages/sr-Cyrl-RS'>;
 }
 declare module 'numbro/languages/sv-SE.js' {
   declare module.exports: $Exports<'numbro/languages/sv-SE'>;
@@ -667,6 +927,12 @@ declare module 'numbro/languages/uk-UA.js' {
 }
 declare module 'numbro/languages/zh-CN.js' {
   declare module.exports: $Exports<'numbro/languages/zh-CN'>;
+}
+declare module 'numbro/languages/zh-MO.js' {
+  declare module.exports: $Exports<'numbro/languages/zh-MO'>;
+}
+declare module 'numbro/languages/zh-SG.js' {
+  declare module.exports: $Exports<'numbro/languages/zh-SG'>;
 }
 declare module 'numbro/languages/zh-TW.js' {
   declare module.exports: $Exports<'numbro/languages/zh-TW'>;

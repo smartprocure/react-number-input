@@ -1,4 +1,4 @@
-// flow-typed signature: f3ab423eb49a3fac40a9b4053bac3d55
+// flow-typed signature: 19e62959ebc1bc4b2defc2f42b8630c1
 // flow-typed version: <<STUB>>/babel-plugin-remove-comments_v^2.0.0/flow_v0.42.0
 
 /**
@@ -8,8 +8,8 @@
  *
  * Fill this stub out by replacing all the `any` types.
  *
- * Once filled out, we encourage you to share your work with the 
- * community by sending a pull request to: 
+ * Once filled out, we encourage you to share your work with the
+ * community by sending a pull request to:
  * https://github.com/flowtype/flow-typed
  */
 

@@ -2,7 +2,7 @@
 	"presets": [
 		"flow",
 		"react",
-		"latest",
+		"env"
 	],
 	"plugins": [
 		"remove-comments",
